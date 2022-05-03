@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">{{title}}</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample05">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/addMeals">Build your Meal Plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/createMeals">Add a New Meal</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownManual" data-bs-toggle="dropdown" aria-expanded="false">Choose a goal</a>
+            <div  class="dropdown-menu" aria-labelledby="dropdownManual">
+              <button  class="dropdown-item" href="#">Lose Weight</button>
+             <button  class="dropdown-item" href="#">Maintain Current Weight</button>
+             <button class="dropdown-item" href="#">Gain Weight</button>
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+<!-- <div>
+<h1>{{title}}</h1>
+<nav>
+    <a routerLink="/addMeals">Add Meals to Meal Plan</a>
+</nav>
+<nav>
+    <a routerLink="/createMeals">Create and Edit Meals</a>
+</nav>
+<app-dropdown></app-dropdown>
+</div> -->
+
+
+<!-- <label for="goal">Choose a Goal:</label>
+<select name="goals" id="goals">
+  <option value="lose">Lose Weight</option>
+  <option value="maintain">Maintain Current Weight</option>
+  <option value="gain">Gain Weight</option> -->
